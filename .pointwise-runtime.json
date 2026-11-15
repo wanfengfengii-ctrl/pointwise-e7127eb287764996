@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "kind": "cli",
+  "setup": [
+    ["python3", "-m", "py_compile", "rankmerge.py", "test_rankmerge.py", "demo.py"]
+  ],
+  "verify": ["python3", "-m", "unittest", "discover", "-v"],
+  "demo": ["python3", "demo.py"]
+}
